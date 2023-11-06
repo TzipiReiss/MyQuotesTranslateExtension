@@ -1,4 +1,4 @@
-var api = "http://api.forismatic.com/api/1.0/?&method=getQuote&format=json&lang=en";
+var api = "https://api.forismatic.com/api/1.0/?&method=getQuote&format=json&lang=en";
 var translationApi = "https://api.mymemory.translated.net";
 
 function getQuoteFromApi(callback) {
