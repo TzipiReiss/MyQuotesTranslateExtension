@@ -24,13 +24,13 @@
     },
 
     "host_permissions":[
-        "http://api.forismatic.com/*",
+        "https://api.forismatic.com/*",
         "https://api.mymemory.translated.net/*"
     ],
     "content_scripts": [
         {
           "matches": [
-            "http://api.forismatic.com/*",
+            "https://api.forismatic.com/*",
             "https://api.mymemory.translated.net/*"
         ],
           "css": ["style.css"],
