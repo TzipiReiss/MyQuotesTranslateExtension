@@ -5,37 +5,16 @@
 
     "description": "An extension to display a random famous quote and translate it!",
     "icons":{
-        "16": "icon.png",
-        "32": "icon.png",
-        "48": "icon.png",
-        "128": "icon.png"
+        "48": "icon.png"
     },
   
-
     "action":{
-        "default_icon": { 
-        "16": "icon.png",
-        "24": "icon.png",
-        "32": "icon.png"
-      },
       "default_title": "Click Me", 
-      
       "default_popup": "popup.html"
     },
 
     "host_permissions":[
         "https://api.forismatic.com/*",
         "https://api.mymemory.translated.net/*"
-    ],
-    "content_scripts": [
-        {
-          "matches": [
-            "https://api.forismatic.com/*",
-            "https://api.mymemory.translated.net/*"
-        ],
-          "css": ["style.css"],
-          "js": ["popup.js"]
-        }
     ]
-
 }
